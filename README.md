@@ -75,6 +75,9 @@ Branch strategy:
 ```
 vprofile-gitops-iac/
 │
+├── architecture/
+│   └── vprofile_gitops_architecture.png
+│
 ├── terraform/
 │   ├── eks-cluster.tf
 │   ├── main.tf
@@ -87,6 +90,9 @@ vprofile-gitops-iac/
 │   └── workflows/
 │       ├── terraform-main.yml
 │       └── terraform-stage.yml
+│
+├── screenshots/
+│   └── vprofile_iac_workflow.png
 │
 └── README.md
 ```
