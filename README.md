@@ -76,13 +76,12 @@ Branch strategy:
 vprofile-gitops-iac/
 │
 ├── terraform/
-│   ├── backend.tf
-│   ├── provider.tf
+│   ├── eks-cluster.tf
+│   ├── main.tf
 │   ├── variables.tf
 │   ├── vpc.tf
-│   ├── eks.tf
-│   ├── ecr.tf
-│   ├── outputs.tf
+│   ├── terraform.tf
+│   └── outputs.tf
 │
 ├── .github/
 │   └── workflows/
