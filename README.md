@@ -130,37 +130,36 @@ Install Ingress Controller
 ## Deployment Instructions
 
 ### Step 1: Clone Repository
-
+```
 git clone https://github.com/josephmj0303/vprofile-gitops-iac.git
 
 cd vprofile-gitops-iac
-
+```
 ---
 
 ### Step 2: Configure GitHub Secrets
 
 Required secrets:
 
-AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY
-BUCKET_TF_STATE
-AWS_REGION
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- BUCKET_TF_STATE
+- AWS_REGION
 
 ---
 
 ### Step 3: Deploy Infrastructure
 
 Push changes to stage branch:
-
+```
 git checkout stage
 git push origin stage
-
+```
 Push changes to main branch:
-
+```
 git checkout main
 git push origin main
-
-
+```
 GitHub Actions will automatically provision infrastructure.
 
 ---
@@ -183,10 +182,10 @@ After deployment, the following will be created:
 ## Verification
 
 Check cluster:
-
+```
 aws eks update-kubeconfig --region us-east-1 --name vprofile-eks
 kubectl get nodes
-
+```
 ---
 
 ## Screenshots
