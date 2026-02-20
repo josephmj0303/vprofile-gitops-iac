@@ -1,3 +1,6 @@
+![Terraform](https://img.shields.io/badge/Terraform-Infrastructure-blue?logo=terraform)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-black?logo=githubactions)
 # VProfile GitOps Infrastructure Repository (vprofile-gitops-iac)
 ## Parent GitOps Project
 
@@ -88,8 +91,8 @@ vprofile-gitops-iac/
 │
 ├── .github/
 │   └── workflows/
-│       ├── terraform-main.yml
-│       └── terraform-stage.yml
+│       ├── main.yml
+│       └── stage.yml
 │
 ├── screenshots/
 │   └── vprofile_iac_workflow.png
