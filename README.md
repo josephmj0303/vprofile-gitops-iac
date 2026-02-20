@@ -47,6 +47,11 @@ Branch strategy:
 - main branch → Terraform Apply
 
 ---
+## 🏗 Architecture Overview
+
+![GitOps Architecture](architecture/vprofile_gitops_architecture.png)
+
+---
 
 ## Architecture Components Created
 
@@ -99,19 +104,6 @@ vprofile-gitops-iac/
 │
 └── README.md
 ```
-
----
-
-## Terraform Remote State
-
-Terraform state is stored remotely in S3.
-
-Benefits:
-
-- State locking
-- Version control
-- Team collaboration
-- Prevents state corruption
 
 ---
 
@@ -194,6 +186,13 @@ Check cluster:
 
 aws eks update-kubeconfig --region us-east-1 --name vprofile-eks
 kubectl get nodes
+
+---
+
+## Screenshots
+
+## Workflow Success
+![Workflow Success](screenshots/vprofile_iac_workflow.png)
 
 ---
 
