@@ -1,7 +1,7 @@
+# VProfile GitOps Infrastructure Repository (vprofile-gitops-iac)
 ![Terraform](https://img.shields.io/badge/Terraform-Infrastructure-blue?logo=terraform)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-black?logo=githubactions)
-# VProfile GitOps Infrastructure Repository (vprofile-gitops-iac)
 ## Parent GitOps Project
 
 This repository is part of the GitOps platform:
